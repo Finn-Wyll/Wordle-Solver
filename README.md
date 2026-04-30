@@ -46,7 +46,7 @@ python -c "import wordle; wordle.start()"
 Automated example (optional)
 ---------------------------
 
-`Wordle-Solver.py` demonstrates driving the NYT Wordle UI with Selenium. This is an example only — verify you comply with the NYT terms before using automation. Requires Chrome + chromedriver on `PATH`.
+`Wordle-Solver.py` demonstrates automated solving using browser automation with Selenium. ChromeDriver is automatically downloaded and managed via `webdriver-manager`, and only requires Chrome to be installed on your system.
 
 ```bash
 python Wordle-Solver.py
